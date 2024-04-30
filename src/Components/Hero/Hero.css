@@ -53,5 +53,5 @@
 }
 .hero-right img {
   /*I put this css myself as the image was overflowing */
-  width: 400px;
+  height: 100%;
 }
