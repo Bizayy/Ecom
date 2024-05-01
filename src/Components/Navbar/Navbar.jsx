@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../Assets/logo.png";
+// import logo from "../Assets/logo.png";
+import bliz_logo from "../Assets/bliz-high-resolution-logo-black-transparent.png";
 import cart_icon from "../Assets/cart_icon.png";
 import { Link } from "react-router-dom";
 
@@ -10,8 +11,8 @@ export const Navbar = () => {
   return (
     <div class="navbar">
       <div className="nav-logo">
-        <img src={logo} alt="" />
-        <p>Bliz</p>
+        <img src={bliz_logo} alt="" />
+        {/* <p>Bliz</p> */}
       </div>
       <ul className="nav-menu">
         <li
